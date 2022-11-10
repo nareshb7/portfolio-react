@@ -1,10 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+
+import Nav from './components/Nav'
+import RoutesComp from './RoutesComp';
 
 function App() {
   return (
     <div>
-      <h1>Hello World...</h1>
+      <Nav />
+      <RoutesComp />
     </div>
   );
 }
